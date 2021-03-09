@@ -1,13 +1,19 @@
 ---
 layout: homepage.njk
-title: Very Minimal Eleventy Template
-description: Eleventy very minimal blog template for GitHub Pages + Travis
+title: Barnet Tiny Forests
+description: Planting trees, attracting wildlife, creating community
+image: '/assets/images/tinyforest.jpeg'
 ---
 
-A very minimal Eleventy template based on [this](https://github.com/arpitbatra123/eleventy-blog-mnml), but even more minimal.
+![]({{ image | url }})
 
-- blog posts are added to the `posts` directory and appear in a list on the home page.
-- compatible with GitHub Pages.
-- includes template `.travis.yml` so that Travis can be used to deploy the blog to GitHub Pages (some additional config required).
-- uses minimal [lit CSS](https://github.com/ajusa/lit) template.
+We are a group of local residents working closely with Barnet Council to plant a number of Tiny Forests in the borough. 
+
+A Tiny Forest is a dense and rapidly growing native woodland in a small area the size of a tennis court. 
+
+These Tiny are low cost and low maintenance but can develop a powerful engagement of local people and a positive effect on the environment, including cleaner air and an increase in wildlife.
+
+[Find out more about Tiny Forests](posts/2021-03-09-What-is-a-Tiny-Forest)
+
+[Find out how you can help](posts/2021-03-09-How-You-Can-Help)
 
