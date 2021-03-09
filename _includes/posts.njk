@@ -1,6 +1,6 @@
 <h4>Recent News</h4>
 <ul>
-{% for post in collections.posts %}
+{% for post in collections.posts | reverse %}
   <li class="post">
     <span>
       {% if post.data.externalLink %}

@@ -5,7 +5,9 @@ description: Planting trees, attracting wildlife, creating community
 image: '/assets/images/tinyforest.jpeg'
 ---
 
-![]({{ image | url }})
+<div class="card">
+    <img src="{{ image | url }}" class="w-100">
+</div>
 
 We are a group of local residents working closely with Barnet Council to plant a number of Tiny Forests in the borough. 
 
