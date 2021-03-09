@@ -1,7 +1,7 @@
 language: node_js
 node_js:
   - 12
-script: npx @11ty/eleventy --pathprefix="/eleventy-minimal/"
+script: npx @11ty/eleventy --pathprefix="/tinyforest/"
 deploy:
   local-dir: _site
   provider: pages
